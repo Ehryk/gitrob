@@ -226,6 +226,13 @@
     {
         "part": "filename",
         "type": "match",
+        "pattern": "deploy.rb",
+        "caption": "Capistrano (Ruby On Rails) deployment file",
+        "description": "Contains information for the deployment of a Ruby On Rails application."
+    },
+    {
+        "part": "filename",
+        "type": "match",
         "pattern": "database.yml",
         "caption": "Potential Ruby On Rails database configuration file",
         "description": "Might contain database credentials."
@@ -376,6 +383,20 @@
         "pattern": "tblk",
         "caption": "Tunnelblick VPN configuration file",
         "description": null
+    },
+    {
+        "part": "extension",
+        "type": "match",
+        "pattern": "config",
+        "caption": "Potential App.config, Web.config, or other configuration file",
+        "description": "May contain web, database, domain, or other passwords"
+    },
+    {
+        "part": "filename",
+        "type": "match",
+        "pattern": "config.yml",
+        "caption": "Potential configuration file",
+        "description": "May contain web, database, domain, or other passwords"
     },
     {
         "part": "path",
